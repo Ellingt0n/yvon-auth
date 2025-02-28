@@ -7,15 +7,18 @@ body {
  justify-content: center;
  padding: 50px 0 150px;
 }
+
 .container {
  max-width: 1440px;
  width: 100%;
 }
+
 .login-blocks {
  display: flex;
  flex-direction: column;
  gap: 150px
 }
+
 @media (max-width: 1024px) {
  .container {
   padding: 0 15px;
@@ -26,14 +29,17 @@ body {
   text-align: center;
  }
 }
+
 header {
  margin-bottom: 150px;
 }
+
 .header-links {
  display: flex;
  flex-wrap: wrap;
  gap: 15px;
 }
+
 .header-link {
  padding: 10px 25px;
  background: #000;
@@ -416,11 +422,13 @@ input.error-form {
  }
 
  .auth-left,
- .auth-right {
+ .auth-right,
+ .auth-sms {
   flex: 1 1 100%;
   padding: 0px;
   border-right: none;
   width: 100%;
+  max-width: 540px;
  }
 }
 
