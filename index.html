@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Yvon</title>
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-links">
+        <a class="header-link" href="index.html">Регистрация</a>
+        <a class="header-link" href="reg-sms.html">Регистрация СМС</a>
+        <a class="header-link" href="login.html">Вход</a>
+        <a class="header-link" href="login-sms.html">Вход СМС</a>
+      </div>
+    </div>
+  </header>
+
+
+
+  <section class="auth-page">
+    <div class="container">
+      <div class="auth-page-wrapper">
+        <div class="auth-left">
+          <h2 class="auth-page-title">Регистрация</h2>
+          <form class="auth-form">
+            <div class="form-row required">
+              <label class="form-label required">Дата рождения</label>
+              <input type="text" placeholder="31.12.1999" class="form-input input-date" required />
+            </div>
+            <div class="form-row required">
+              <label class="form-label required">Телефон</label>
+              <input type="text" placeholder="+7 (___) ___ - __ - __" class="form-input input-tel" required />
+              <span class="input-tel-info">На ваш телефон поступит SMS-код с подтверждением.</span>
+            </div>
+            <div class="form-row required">
+              <label class="form-label required">Email</label>
+              <input type="text" class="form-input" required />
+            </div>
+            <div class="form-info-password">
+              Ссылка для установки нового пароля будет отправлена ​​на ваш
+              адрес электронной почты.
+            </div>
+            <div class="form-info-privacy">
+              Ваши персональные данные будут использоваться для поддержки
+              вашего использования на этом веб-сайте, для управления
+              доступом к вашей учетной записи и для других целей, описанных в
+              нашей <a href="#">политики конфиденциальности</a>
+            </div>
+            <button type="submit" class="form-submit black-btn">Регистрация</button>
+          </form>
+        </div>
+        <div class="auth-right">
+          <h2 class="auth-page-title">Вход</h2>
+          <div class="auth-right-text">
+            Регистрация на этом сайте позволяет вам получить доступ к
+            статусу и истории вашего заказа. Просто заполните поля, и мы в
+            кратчайшие сроки создадим для вас новую учетную запись. Мы
+            запросим у вас информацию, необходимую только для того, чтобы
+            ускорить и упростить процесс покупки.
+          </div>
+          <a href="#" class="auth-right-btn light-btn">Вход</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

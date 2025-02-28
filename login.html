@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Yvon</title>
+</head>
+
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-links">
+        <a class="header-link" href="index.html">Регистрация</a>
+        <a class="header-link" href="reg-sms.html">Регистрация СМС</a>
+        <a class="header-link" href="login.html">Вход</a>
+        <a class="header-link" href="login-sms.html">Вход СМС</a>
+      </div>
+    </div>
+  </header>
+
+
+
+  <section class="auth-page login-page">
+    <div class="container">
+      <div class="auth-page-wrapper">
+        <div class="auth-left">
+          <h2 class="auth-page-title">Вход по паролю</h2>
+          <form class="auth-form">
+            <div class="form-row required">
+              <label class="form-label required">Телефон или Email</label>
+              <input type="text" class="form-input" required />
+            </div>
+            <div class="form-row required">
+              <label class="form-label required">Пароль</label>
+              <div class="password-wrapper">
+                <input type="password" class="form-input password-input" required />
+                <button type="button" class="toggle-password">
+                  <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.4">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.49983 3.62524C6.26825 3.62524 5.06441 3.99093 4.04091 4.67594C3.0208 5.35869 2.22564 6.32802 1.75547 7.46172C1.74752 7.48652 1.74752 7.51319 1.75547 7.538C2.22564 8.6717 3.0208 9.64103 4.04091 10.3238C5.06441 11.0088 6.26825 11.3745 7.49983 11.3745C8.7314 11.3745 9.93525 11.0088 10.9587 10.3238C11.9789 9.64103 12.774 8.6717 13.2442 7.538C13.2521 7.5132 13.2521 7.48652 13.2442 7.46172C12.774 6.32802 11.9789 5.35869 10.9587 4.67594C9.93525 3.99093 8.7314 3.62524 7.49983 3.62524ZM3.48471 3.8449C4.67278 3.04973 6.07021 2.62524 7.49983 2.62524C8.92945 2.62524 10.3269 3.04973 11.5149 3.8449C12.703 4.64006 13.6282 5.77009 14.1733 7.09173C14.1756 7.09723 14.1778 7.10278 14.1798 7.10836C14.2736 7.36094 14.2736 7.63878 14.1798 7.89136C14.1778 7.89694 14.1756 7.90249 14.1733 7.90799C13.6282 9.22962 12.703 10.3597 11.5149 11.1548C10.3269 11.95 8.92945 12.3745 7.49983 12.3745C6.07021 12.3745 4.67278 11.95 3.48471 11.1548C2.29663 10.3597 1.37141 9.22962 0.826345 7.90799C0.824075 7.90249 0.821903 7.89694 0.81983 7.89136C0.726072 7.63878 0.726072 7.36094 0.81983 7.10836C0.821903 7.10278 0.824075 7.09723 0.826345 7.09173C1.37141 5.77009 2.29663 4.64006 3.48471 3.8449Z"
+                        fill="black" />
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.5 6.12476C6.74061 6.12476 6.125 6.74036 6.125 7.49976C6.125 8.25915 6.74061 8.87476 7.5 8.87476C8.25939 8.87476 8.875 8.25915 8.875 7.49976C8.875 6.74036 8.25939 6.12476 7.5 6.12476ZM5.125 7.49976C5.125 6.18808 6.18832 5.12476 7.5 5.12476C8.81168 5.12476 9.875 6.18808 9.875 7.49976C9.875 8.81143 8.81168 9.87476 7.5 9.87476C6.18832 9.87476 5.125 8.81143 5.125 7.49976Z"
+                        fill="black" />
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <a href="#" class="lostpassword">Забыли свой пароль?</a>
+            <button type="submit" class="form-submit black-btn">Авторизация</button>
+          </form>
+          <a href="#" class="form-light-btn light-btn">Войти по коду</a>
+        </div>
+        <div class="auth-right">
+          <h2 class="auth-page-title">Регистрация</h2>
+          <div class="auth-right-text">
+            Регистрация на этом сайте позволяет вам получить доступ к статусу и истории вашего заказа. Просто заполните
+            поля,
+            и мы в
+            кратчайшие сроки создадим для вас новую учетную запись. Мы запросим у вас информацию, необходимую только для
+            того,
+            чтобы
+            ускорить и упростить процесс покупки.
+          </div>
+          <a href="#" class="auth-right-btn light-btn">Зарегистрироваться</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

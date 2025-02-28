@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link
+  href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet" />
+ <link rel="stylesheet" href="reset.css" />
+ <link rel="stylesheet" href="style.css" />
+ <title>Yvon</title>
+</head>
+
+
+<body>
+ <header>
+  <div class="container">
+   <div class="header-links">
+    <a class="header-link" href="index.html">Регистрация</a>
+    <a class="header-link" href="reg-sms.html">Регистрация СМС</a>
+    <a class="header-link" href="login.html">Вход</a>
+    <a class="header-link" href="login-sms.html">Вход СМС</a>
+   </div>
+  </div>
+ </header>
+
+
+
+ <section class="auth-page login-page">
+  <div class="container">
+   <div class="login-blocks">
+    <div class="auth-page-wrapper">
+     <div class="auth-left">
+      <h2 class="auth-page-title">Вход по коду</h2>
+      <form class="auth-form">
+       <div class="form-row required">
+        <label class="form-label">Телефон:</label>
+        <input type="text" placeholder="+7 (___) ___ - __ - __" class="form-input input-tel" required />
+       </div>
+       <button type="submit" class="form-submit black-btn">Регистрация</button>
+      </form>
+      <a href="#" class="form-light-btn light-btn">Изменить номер телефона</a>
+     </div>
+     <div class="auth-right">
+      <h2 class="auth-page-title">Регистрация</h2>
+      <div class="auth-right-text">
+       Регистрация на этом сайте позволяет вам получить доступ к статусу и истории вашего заказа. Просто заполните поля,
+       и мы в
+       кратчайшие сроки создадим для вас новую учетную запись. Мы запросим у вас информацию, необходимую только для
+       того,
+       чтобы
+       ускорить и упростить процесс покупки.
+      </div>
+      <a href="#" class="auth-right-btn light-btn">Зарегистрироваться</a>
+     </div>
+    </div>
+
+    <div class="auth-page-wrapper">
+     <div class="auth-left">
+      <h2 class="auth-page-title">Введите полученный код</h2>
+      <form class="auth-sms-form">
+       <div class="sms-form-fields">
+        <div class="form-row required">
+         <label class="form-label required">Код из SMS</label>
+         <input type="text" class="form-input" required />
+        </div>
+        <div class="sms-form-actions">
+         <span class="actions-title">
+          Не пришел код?
+         </span>
+         <a href="#" class="actions-btn">Отправить повторно</a>
+        </div>
+       </div>
+
+       <button type="submit" class="form-submit black-btn">Авторизоваться</button>
+      </form>
+      <a href="#" class="form-light-btn light-btn">Войти по паролю</a>
+     </div>
+     <div class="auth-right">
+      <h2 class="auth-page-title">Регистрация</h2>
+      <div class="auth-right-text">
+       Регистрация на этом сайте позволяет вам получить доступ к статусу и истории вашего заказа. Просто заполните поля,
+       и мы в
+       кратчайшие сроки создадим для вас новую учетную запись. Мы запросим у вас информацию, необходимую только для
+       того,
+       чтобы
+       ускорить и упростить процесс покупки.
+      </div>
+      <a href="#" class="auth-right-btn light-btn">Зарегистрироваться</a>
+     </div>
+    </div>
+
+
+    <div class="auth-page-wrapper">
+     <div class="auth-left">
+      <h2 class="auth-page-title">Введите полученный код</h2>
+      <form class="auth-sms-form error-form">
+       <div class="sms-form-fields">
+        <div class="form-row required">
+         <label class="form-label required">Код из SMS</label>
+         <input type="text" class="form-input error-form" value="56775" required />
+        </div>
+        <div class="sms-form-actions">
+         <div class="actions-title">
+          Повторная отправка кода возможна через <span>30сек.</span>
+         </div>
+        </div>
+       </div>
+       <div class="error-form-notice">Введённый код неверный.</div>
+       <button type="submit" class="form-submit black-btn disabled">Авторизоваться</button>
+      </form>
+      <a href="#" class="form-light-btn light-btn">Войти по паролю</a>
+     </div>
+     <div class="auth-right">
+      <h2 class="auth-page-title">Регистрация</h2>
+      <div class="auth-right-text">
+       Регистрация на этом сайте позволяет вам получить доступ к статусу и истории вашего заказа. Просто заполните поля,
+       и мы в
+       кратчайшие сроки создадим для вас новую учетную запись. Мы запросим у вас информацию, необходимую только для
+       того,
+       чтобы
+       ускорить и упростить процесс покупки.
+      </div>
+      <a href="#" class="auth-right-btn light-btn">Зарегистрироваться</a>
+     </div>
+    </div>
+
+
+
+
+   </div>
+  </div>
+ </section>
+
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+ <script src="js/jquery.maskedinput.js"></script>
+ <script src="js/script.js"></script>
+</body>
+
+</html>
